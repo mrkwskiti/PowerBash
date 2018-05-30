@@ -35,7 +35,7 @@ Set-Alias lxp ConvertTo-LinuxPath
 
 function Get-AllBashApps
 {
-    $bashFSRoot = "$env:LOCALAPPDATA\lxss\rootfs"
+    $bashFSRoot = "$env:LOCALAPPDATA\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs"
     $bashPATH = "/usr/local/sbin","/usr/local/bin","/usr/sbin","/usr/bin","/sbin","/bin","/usr/lib/gcc/x86_64-linux-gnu/4.8","/usr/games"
     $allBashApps = @()
     foreach($path in $bashPATH)
